@@ -30,7 +30,7 @@ a.co-aq{
 /* start customize home section  */
 .home{
     background-color: #103743;
-    padding: 100px 0;
+    padding: 20rem 0 12rem 0;
 }
 .row-ho {
     display: flex;
@@ -40,12 +40,39 @@ a.co-aq{
     flex: 0 0 50%;
     max-width: 50%;
 }
-/* .text-ho{
-    padding-right: 1rem;
-} */
+.photo-ho{
+    padding-left: 2rem;
+    position: relative;
+}
+.photo-ho img{
+    z-index: 9;
+    position: relative;
+}
+.photo-ho:before {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #127a76;
+    content: '';
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 8;
+}
 .text-ho h1 {
     font-size: 55px;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+}
+.text-ho p{
+    font-size: 18px;
     line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.text-ho .custom {
+    font-size: 20px;
+    font-weight: normal;
 }
 /* end customize home section  */
 
