@@ -25,7 +25,29 @@ a.co-wh5{
 a.co-aq{
     color: #14b8a6;
 }
-
+/* fixed component */
+.fa-chevron-right{
+    font-size: 9px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.title-section{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title-section h2{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.title-section p{
+    line-height: 1.5;
+    font-size: 17px;
+}
+.box-shadow-sty{
+    box-shadow: 0px 0px 3px 0px rgb(255, 255,255,.7);
+}
+/* fixed component */
 
 /* button */
 .contact-btn .custom,.about-btn .custom {
@@ -94,12 +116,12 @@ a.co-aq{
     max-width: 50%;
 }
 .text-abo{
-    padding-left: 30px;
+    padding-left: 80px;
 }
 .text-abo h6{
     font-size: 14px;
     color: #14b8a6;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 1rem;
 }
 .text-abo h3{
@@ -126,8 +148,8 @@ a.co-aq{
     transform: translate(-50%,-50%);
 }
 .center-flex{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background: #0f172a;
     text-align: center;
     display: flex;
@@ -148,4 +170,150 @@ a.co-aq{
 }
 /* end customize about section */
 
+/* start customize services section */
+.services{
+    padding: 100px 0;
+    background-color: #1e293b;
+}
+.row-serv {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px,1fr));
+    gap: 20px;
+}
+.card-serv{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #0f172a;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+.card-serv:hover .icon-serv{
+    background: linear-gradient(30deg,#14b8a61a, #14b8a670);
+}
+.icon-serv {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(30deg, #0f1d2f,#14b8a61a);
+    margin-bottom: 2rem;
+}
+.icon-serv i{
+    font-size: 25px;
+}
+.card-serv h2{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    transition: all .1s;
+}
+.card-serv p{
+    margin-bottom: 1.5rem;
+    font-size: 17px;
+}
+.card-serv h2:hover{
+    color: #14b8a6;
+}
+.icon-serv,.btn-serv{
+    color: #14b8a6;
+}
+.card-serv .svg{
+    position: absolute;
+    width: 9rem;
+    right: -20%;
+    top: 35%;
+    z-index: -1;
+    opacity: .3;
+    fill: rgb(20 184 166 / .1);
+    transition: .5s;
+}
+.card-serv:hover .svg{
+    fill: rgb(20 184 166 / .5);
+}
+
+/* services-2 */
+.secvices-2{
+    padding: 100px 0;
+    background-color: #0f172a;
+}
+.row-serv-2{
+    display: flex;
+}
+.seo-serv-2{
+    flex: 0 0 70%;
+    max-width: 70%;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+.step-serv-2{
+    flex: 0 0 30%;
+    max-width: 30%;
+    border-radius: 15px;
+}
+.seo-serv-2 img{
+    border-radius: 15px;
+}
+.seo-serv-2 .content-serv-2{
+    padding: 20px;
+}
+.seo-serv-2 .content-serv-2 h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.seo-serv-2 .content-serv-2 p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.all-steps{
+    padding: 20px;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+.all-steps .step-1{
+    padding: 10px;
+    background-color: #14b8a6;
+    border-radius: 20px;
+    position: sticky;
+    margin-bottom: 35px;
+}
+.all-steps .step-1  span{
+    display: block;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.step-1 span.text-1 {
+    font-size: 20px;
+}
+.step-1 span.text-2 {
+    font-size: 20px;
+}
+.step-2{
+    margin-bottom: 40px !important;
+}
+.step-2,.step-3{
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .3s ;
+}
+.step-2:hover,.step-3:hover{
+    background-color: #1e293b;
+}
+.step-1 span.text-3 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.step span{
+    display: block;
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+/* end customize services section */
 
