@@ -7,6 +7,9 @@
 body{
     font-family: Libre Franklin,sans-serif;
 }
+button{
+    cursor: pointer;
+}
 li{
     list-style: none;
 }
@@ -313,7 +316,7 @@ a.co-aq{
     display: block;
     color: #fff;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 17px;
 }
 /* end customize services section */
 
