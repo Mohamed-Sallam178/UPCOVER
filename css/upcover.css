@@ -6,6 +6,10 @@
 }
 body{
     font-family: Libre Franklin,sans-serif;
+    background-color: #0f172a;
+}
+button{
+    cursor: pointer;
 }
 li{
     list-style: none;
@@ -46,6 +50,12 @@ a.co-aq{
 }
 .box-shadow-sty{
     box-shadow: 0px 0px 3px 0px rgb(255, 255,255,.7);
+}
+.padd-100{
+    padding: 100px 0;
+}
+.padd-14{
+    padding: 14rem 0 12rem 0;
 }
 /* fixed component */
 
@@ -104,7 +114,6 @@ a.co-aq{
 
 /* start customize about section */
 .about{
-    padding: 100px 0;
     background-color: #0f172a;
 }
 .row-abo{
@@ -172,7 +181,6 @@ a.co-aq{
 
 /* start customize services section */
 .services{
-    padding: 100px 0;
     background-color: #1e293b;
 }
 .row-serv {
@@ -237,7 +245,6 @@ a.co-aq{
 
 /* services-2 */
 .secvices-2{
-    padding: 100px 0;
     background-color: #0f172a;
 }
 .row-serv-2{
@@ -253,6 +260,9 @@ a.co-aq{
     flex: 0 0 30%;
     max-width: 30%;
     border-radius: 15px;
+}
+.seo-serv-2 .image{
+    padding: 25px;
 }
 .seo-serv-2 img{
     border-radius: 15px;
@@ -274,6 +284,7 @@ a.co-aq{
     position: sticky;
     left: 0;
     top: 0;
+    border-radius: 15px;
 }
 .all-steps .step-1{
     padding: 10px;
@@ -313,7 +324,107 @@ a.co-aq{
     display: block;
     color: #fff;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 17px;
+}
+
+/* start customize video */
+.video{
+    position: relative;
+}
+.bg-gradient {
+    background: #14b8a6;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 0;
+}
+.video .text-vid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.video .text-vid p{
+    color: #ffffffb3;
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    line-height: 1.5;
+}
+.video .text-vid .left-side h2{
+    color: #fff;
+    line-height: 1.5;
+    font-size:30px;
+}
+.video .text-vid .right-side .btn-serv{
+    color: #fff;
+    font-size: 20px;
 }
 /* end customize services section */
+
+/* start customize testemonials */
+.all-teste{
+    display: flex;
+    gap: 30px;
+}
+.comment{
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.comment > i{
+    font-size: 40px;
+    color: #14b8a6;
+}
+.comment > p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.comment .reviews{
+    color: #fbbf24;
+}
+.only-teste .person  {
+    text-align: center;
+}
+.only-teste .person img{
+    width: 65px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 11px 0px rgb(255 255 255 / 98%);
+    margin-bottom: 20px;
+}
+.only-teste .person p{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.only-teste .person span{
+    color: #94a3b8;
+    font-size: 17px;
+}
+/* end customize testemonials */
+
+/* start customize pricing */
+.pricing{
+    background-color: #1e293b;
+}
+.row-price {
+    display: flex;
+    gap: 20px;
+}
+.package {
+    padding: 30px;
+    background-color: #0f172a;
+    border-radius: 10px;
+}
+.popular {
+    padding: 15px 20px;
+}
+.dif-bord{
+    border: 1px solid #14b8a6;
+}
+/* end customize pricing */
 
