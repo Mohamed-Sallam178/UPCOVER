@@ -411,5 +411,20 @@ a.co-aq{
 .pricing{
     background-color: #1e293b;
 }
+.row-price {
+    display: flex;
+    gap: 20px;
+}
+.package {
+    padding: 30px;
+    background-color: #0f172a;
+    border-radius: 10px;
+}
+.popular {
+    padding: 15px 20px;
+}
+.dif-bord{
+    border: 1px solid #14b8a6;
+}
 /* end customize pricing */
 
