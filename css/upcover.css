@@ -762,6 +762,13 @@ align-items: center;
     height: 400px !important;
     bottom: 45px !important;
 }
+.row-price.row-100 {
+    flex-wrap: wrap;
+}
+.row-price.row-100 > div {
+    flex: 0 0 48%;
+    max-width: 50%;
+}
 }
 
 /* header */
