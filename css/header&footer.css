@@ -81,3 +81,50 @@ button.custom {
     font-weight: bold;
 }
 /* end customize header */
+
+
+/* mobile media */
+@media(max-width:766px){
+    .bars-icon i {
+        font-size: 25px;
+        color: #fff;
+    }
+    .mobile-menu{
+        position: relative;
+        margin-left: 20px;
+    }
+    .mobile-menu:hover .visi-hov{
+        display: block;
+    }
+    .mob-links{
+        width: 130px;
+        position: absolute;
+        right: 0;
+        background: #14b8a6;
+        padding: 10px;
+        z-index: 999999;
+        top: 30px;
+        border-radius: 5px;
+    }
+    .visi-hov{
+        display: none;
+        transition: all .3s;
+    }
+    .mob-links li{
+        margin-bottom: 7px;
+    }
+    .mob-links li a{
+        color: #fff;
+    }
+    a.login-btn {
+        display: flex;
+        flex: 0 0 50%;
+        justify-content: flex-end;
+    }
+}
+
+@media(min-width:767px){
+    .mobile-menu{
+        display: none !important;
+    }
+}
